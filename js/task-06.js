@@ -11,7 +11,7 @@ function onInput(evt) {
     if (textInInput.length >= minLengthText) {
         inputText.classList.remove("invalid");
         inputText.classList.add("valid");
-    } if (textInInput.length < minLengthText) {
+    }if (textInInput.length < minLengthText) {
         inputText.classList.remove("valid");
         inputText.classList.add("invalid");
          
