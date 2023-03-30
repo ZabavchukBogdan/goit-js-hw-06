@@ -12,8 +12,9 @@ colorBtn.addEventListener('click',changeHexColor)
 
 
 function changeHexColor(evt) {
-  document.body.style.background = getRandomHexColor();
-  colorHex.textContent = getRandomHexColor();
+  const randomColor =  getRandomHexColor();
+  document.body.style.background = randomColor;
+  colorHex.textContent = randomColor;
 };
 
 

@@ -10,6 +10,4 @@ const inputValue = evt.currentTarget.value.trim();
     } else {
         outputText.textContent = 'Anonymous';
     }
-
-    console.dir(inputValue)
 }

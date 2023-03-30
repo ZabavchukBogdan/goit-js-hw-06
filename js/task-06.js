@@ -4,7 +4,6 @@ inputText.addEventListener('blur', onInput)
 
 const minLengthText = inputText.getAttribute("data-length")
 
-console.dir(minLengthText)
 
 function onInput(evt) {
     const textInInput = evt.currentTarget.value.trim();
@@ -16,6 +15,5 @@ function onInput(evt) {
         inputText.classList.add("invalid");
          
     }
-      console.dir()
    
 }

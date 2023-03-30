@@ -3,7 +3,7 @@ formEl.addEventListener('submit', onSubmit)
 
 function onSubmit(evt) {
     evt.preventDefault()
-    const { email, password } = evt.currentTarget.elements;
+    const { email, password } = evt.currentTarget.elements.trim();
     if (email.value === "" || password.value === "") {
         return alert("Всі поля повинні бути заповнені!😉");
     } else {
@@ -11,7 +11,6 @@ function onSubmit(evt) {
         email: email.value,
         password: password.value,
     };
-        console.log(dataUser)
     }
 
     evt.currentTarget.reset();

@@ -4,7 +4,6 @@ const wordSize = document.querySelector('#text')
 fontSizeControl.addEventListener('input', onInput)
 
 function onInput(evt) {
-    const rangeEvent = evt.currentTarget.value;
-        wordSize.style.fontSize = rangeEvent + "px";
+        wordSize.style.fontSize = evt.currentTarget.value + "px";
     
 }

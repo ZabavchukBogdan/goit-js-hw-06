@@ -11,11 +11,9 @@ incrementBtn.addEventListener('click', clickUp);
 function clickDown(evt) {
     counterValue -= 1;
     counter.textContent = counterValue
-    console.log(evt.currentTarget)
 }  
 
 function clickUp(evt) {
     counterValue += 1;
     counter.textContent = counterValue
-    console.log(evt.currentTarget)
 }  
